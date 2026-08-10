@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(winget install:*)",
+      "Bash(dotnet run:*)",
+      "Read(//c/Program Files \\(x86\\)/NuGet/**)",
+      "Bash(ls \"C:/Program Files \\(x86\\)/NuGet/Config/\")",
+      "Bash(mkdir:*)",
+      "Bash(start:*)",
+      "PowerShell(dotnet run *)"
+    ]
+  }
+}
